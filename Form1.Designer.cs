@@ -59,6 +59,7 @@
             // 
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txtUsername.Location = new System.Drawing.Point(124, 78);
+            this.txtUsername.MaxLength = 16;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(192, 24);
             this.txtUsername.TabIndex = 2;
@@ -67,6 +68,7 @@
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txtPassword.Location = new System.Drawing.Point(124, 175);
+            this.txtPassword.MaxLength = 16;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(192, 24);
