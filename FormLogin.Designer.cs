@@ -1,6 +1,6 @@
 ﻿namespace Activity3
 {
-    partial class Form1
+    partial class fmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -85,7 +85,7 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // Form1
+            // fmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,7 +95,7 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
-            this.Name = "Form1";
+            this.Name = "fmLogin";
             this.Text = "Student Login Form";
             this.ResumeLayout(false);
             this.PerformLayout();
