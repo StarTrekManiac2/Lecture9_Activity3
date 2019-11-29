@@ -16,5 +16,18 @@ namespace Activity3
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if ((txtUsername.Text != "Student") || (txtPassword.Text != "mypassword!"))
+            {
+                // Output error if the username or password does not match expected input
+                MessageBox.Show("Incorrect Login Credentials!");
+            }
+            else
+            {
+                MessageBox.Show("Welcome!");
+            }
+        }
     }
 }

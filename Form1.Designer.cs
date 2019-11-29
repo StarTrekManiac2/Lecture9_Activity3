@@ -68,6 +68,7 @@
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.txtPassword.Location = new System.Drawing.Point(124, 175);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(192, 24);
             this.txtPassword.TabIndex = 3;
             // 
@@ -80,6 +81,7 @@
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Form1
             // 
