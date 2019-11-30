@@ -29,5 +29,12 @@ namespace Activity3
                 MessageBox.Show("Welcome!");
             }
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            // Return to menu
+            this.Hide();
+            new FormMainMenu().Show();
+        }
     }
 }

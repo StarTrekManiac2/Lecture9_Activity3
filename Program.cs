@@ -16,7 +16,7 @@ namespace Activity3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmLogin());
+            Application.Run(new FormMainMenu());
         }
     }
 }
